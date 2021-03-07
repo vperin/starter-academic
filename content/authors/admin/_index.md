@@ -70,6 +70,6 @@ email: ""
 highlight_name: false
 ---
 
-I am a PhD student at the Center for Geospatial Analytics at North Carolina State University. I am currently working with remote sensing imagery to further explore surface water resources. More information on my background and education is available on my resume. Throughout my career I have focused on adding up knowledge on agriculture, water resources, climate, remote sensing and GIS. Below, there is a summary of my experiences and main projects.
+I am a PhD student at the Center for Geospatial Analytics at North Carolina State University. I am currently working with remote sensing imagery to further explore surface water resources. More information on my background and education is available on my CV. Throughout my career I have focused on adding up knowledge on agriculture, water resources, climate, remote sensing and GIS. Below, there is a summary of my experiences and main projects.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "static/uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "static/media/resume.pdf" "newtab" >}}CV{{< /staticref >}}.
