@@ -1,25 +1,18 @@
 ---
-title: Can we detect more ephemeral floods with higher density harmonized Landsat 8/Sentinel 2 data compared to just one sensor?
+title: Quantifying on-farm reservoirs’ impacts on surface hydrology using a multi-sensor approach
 
 authors:
-- Mirela G. Tulbure
-- Mark Broich
-- Junchang Ju
 - admin
+- Mirela G. Tulbure
 - Mollie Gaines
-- Simon Yin
-- Stephen V Stehman
-- Tamlin Pavelsky
-- Joachim Mai
-- Luc Betbeder-Matibet
-- Jeffrey G Masek
 
-summary: Floods, defined as water that temporarily submerges land for over 72 hours or longer, are the largest natural hazard in terms of life loss and economic damage. Effective and immediate disaster response management can reduce the impact of floods but it requires near real-time information on flood occurrence, typically derived based on Earth Observation data.
+
+summary: Fresh water stored by on-farm reservoirs (OFRs) is a fundamental component of surface hydrology and is critical for meeting global irrigation needs. Farmers use OFRs to store water during the wet season for crop irrigation during the dry season. There are more than 2.6 million OFRs in the US alone, and many of these OFRs were constructed during the last 40 years.
 
 tags:
-- HLS Flood Detection
+- On-farm reservoirs
 
-date: "2021-03-03T00:00:00Z"
+date: "2021-04-03T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -28,4 +21,13 @@ image:
   caption: ''
   focal_point: Smart
 ---
-Floods, defined as water that temporarily submerges land for over 72 hours or longer, are the largest natural hazard in terms of life loss and economic damage. Effective and immediate disaster response management can reduce the impact of floods but it requires near real-time information on flood occurrence, typically derived based on Earth Observation data. Several water-mapping efforts at large scale have used optical data, despite the fact that cloud cover compromises image time series. This is because systematically acquired optical data providing global coverage have been available for over 40 years. Previous work based on optical data used either high temporal but lower spatial resolution data (e.g. daily MODIS) or lower temporal resolution but higher spatial resolution data (e.g. Landsat). Both data sources have limitations as they may miss small floods/flood edges in the case of MODIS or ephemeral floods in the case of Landsat. With the launch of NASA’s Landsat-8 (L8) and two Sentinel-2 (S2) satellites by the European Space Agency, it is now feasible to acquire optical observations once every 3-4 days. To assess whether the increased temporal frequency of multi-sensor data improves our ability to detect surface water and flooding extent compared to a single sensor, we focused on Australia’s Murray-Darling Basin (MDB), a dynamic dryland basin that experiences ephemeral floods. We used NASA’s Harmonized Landsat/Sentinel-2 (HLS, https://hls.gsfc.nasa.gov/) Surface Reflectance Product, a seamless data set combining L8 and S2 observations, as input to machine learning-based mapping of surface water and flooding. We chose 2019 as the most recent year of full image record of HLS data, with all three sensors operating at full capacity. We show that large short-lived flooding events were detected only by HLS (the combined dataset) but have been entirely missed by L8 (see figure). We found that the area of water (permanent and flooding) identified with HLS was overall greater than that identified by L8. The year 2019 was Australia’s driest years on record. In 2019 there were extremely low river flows, reduced or depleted urban water supplies with several smaller towns running out of regular water supplies entirely, few flood events and drying wetlands. Despite the sparse occurrence of floods in 2019 in the MDB, HLS has been able to detect floods in cases when one sensor (L8) alone was not. The dense optical time series offered by the HLS data set is thus critical for capturing dynamic phenomena, such as ephemeral floods in dryland systems. This work also highlights the importance of existing harmonized data products such as HLS.
+
+Fresh water stored by on-farm reservoirs (OFRs) is a fundamental component of surface hydrology and is critical for meeting global irrigation needs. Farmers use OFRs to store water during the wet season for crop irrigation during the dry season. There are more than 2.6 million OFRs in the US alone, and many of these OFRs were constructed during the last 40 years. Despite their importance for irrigating crops, OFRs can contribute to downstream water stress by decreasing stream discharge and peak flow in the watersheds where they are built, thereby exacerbating water stress intensified by climate change and population growth. However, modeling the impact of OFRs on surface hydrology remains a challenge because they are so abundant and have frequent fluctuations in surface area and water volume. Prior to the recent availability of satellite data, widespread monitoring of OFRs’ surface area and water volume across space and time was impossible due to temporal latency of satellite observations. The goal of this project, therefore, is to harness a multi-sensor satellite imagery approach to reduce observation latency and improve surface hydrology modeling, with the aim of supporting more efficient management of OFRs and mitigation of their downstream impacts. Our objectives are:  
+
+• *Objective 1*: Develop a multi-sensor imagery approach to reduce latency and obtain sub-weekly OFRs surface area and volume change.
+  - A novel method based on the Kalman filter will be used to harmonize data from multiple optical sensors and to provide sub-weekly OFRs surface area change, which will be converted to volume change using area-elevation equations.
+  - The Kalman filter is a recursive inference algorithm that is not sensor-dependent and considers uncertainty in both the observations and resulting estimates, which are advantages over other algorithms.
+
+• *Objective 2*: Input sub-weekly OFRs volume change into the Soil Water and Assessment Tool (SWAT) model to estimate OFRs’ impact on surface hydrology.
+- Volume change is pivotal to estimating OFRs’ impact on surface hydrology; however, this information is rarely available for individual OFRs. The Kalman filter method will enable us to estimate volume change for individual OFRs.
+- Few, if any, studies have coupled a multi-sensor approach with hydrological modeling to assess the OFRs’ impacts.
