@@ -1,41 +1,41 @@
 ---
-title: Internal Project
+title: Quantifying on-farm reservoirs’ impacts on surface hydrology using a multi-sensor approach
 summary: An example of using the in-built project page.
 tags:
-- Deep Learning
-date: "2016-04-27T00:00:00Z"
+- On-farm reservoirs
+date: "2021-03-09T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: ''
   focal_point: Smart
 
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
+# links:
+# - icon: twitter
+#   icon_pack: fab
+#   name: Follow
+#   url: https://twitter.com/georgecushen
+# url_code: ""
+# url_pdf: ""
+# url_slides: ""
+# url_video: ""
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+# slides: example
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+Fresh water stored by on-farm reservoirs (OFRs) is a fundamental component of surface hydrology and is critical for meeting global irrigation needs. Farmers use OFRs to store water during the wet season for crop irrigation during the dry season. There are more than 2.6 million OFRs in the US alone, and many of these OFRs were constructed during the last 40 years. Despite their importance for irrigating crops, OFRs can contribute to downstream water stress by decreasing stream discharge and peak flow in the watersheds where they are built, thereby exacerbating water stress intensified by climate change and population growth. However, modeling the impact of OFRs on surface hydrology remains a challenge because they are so abundant and have frequent fluctuations in surface area and water volume. Prior to the recent availability of satellite data, widespread monitoring of OFRs’ surface area and water volume across space and time was impossible due to temporal latency of satellite observations. The goal of this project, therefore, is to harness a multi-sensor satellite imagery approach to reduce observation latency and improve surface hydrology modeling, with the aim of supporting more efficient management of OFRs and mitigation of their downstream impacts. Our objectives are:  
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+• *Objective 1*: Develop a multi-sensor imagery approach to reduce latency and obtain sub-weekly OFRs surface area and volume change.
+  - A novel method based on the Kalman filter will be used to harmonize data from multiple optical sensors and to provide sub-weekly OFRs surface area change, which will be converted to volume change using area-elevation equations.
+  - The Kalman filter is a recursive inference algorithm that is not sensor-dependent and considers uncertainty in both the observations and resulting estimates, which are advantages over other algorithms.
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
-
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
-
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+• *Objective 2*: Input sub-weekly OFRs volume change into the Soil Water and Assessment Tool (SWAT) model to estimate OFRs’ impact on surface hydrology.
+- Volume change is pivotal to estimating OFRs’ impact on surface hydrology; however, this information is rarely available for individual OFRs. The Kalman filter method will enable us to estimate volume change for individual OFRs.
+- Few, if any, studies have coupled a multi-sensor approach with hydrological modeling to assess the OFRs’ impacts.
