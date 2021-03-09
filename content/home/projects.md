@@ -27,10 +27,13 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
-    tag: Deep Learning
-  - name: Other
-    tag: Demo
+  - name: HLS Flood Detection
+    tag: HLS Flood Detection
+  - name: On-farm reservoirs
+    tag: On-farm reservoirs
+  - name: Surface Water in Southeastern US
+    tag: Surface Water in Southeastern US
+
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
