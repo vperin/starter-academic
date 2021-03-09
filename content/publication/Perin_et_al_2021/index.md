@@ -59,7 +59,7 @@ url_pdf: 'https://www.sciencedirect.com/science/article/abs/pii/S037837742032238
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Perin et al. (2021)**](https://www.sciencedirect.com/science/article/abs/pii/S0378377420322381)'
+  caption: 'Image credit: [**Dennis Carman, White River Irrigation District, Hazen, AR**]()'
   focal_point: ""
   preview_only: false
 
