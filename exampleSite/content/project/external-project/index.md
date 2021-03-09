@@ -1,13 +1,28 @@
 ---
 title: Can we detect more ephemeral floods with higher density harmonized Landsat 8/Sentinel 2 data compared to just one sensor?
 
-summary: Floods, defined as water that temporarily submerges land for over 72 hours or longer, are the largest natural hazard in terms of life loss and economic damage. Effective and immediate disaster response management can reduce the impact of floods but it requires near real-time information on flood occurrence, typically derived based on Earth Observation data. 
+authors:
+- Mirela G. Tulbure
+- Mark Broich
+- Junchang Ju
+- admin
+- Mollie Gaines
+- Simon Yin
+- Stephen V Stehman
+- Tamlin Pavelsky
+- Joachim Mai
+- Luc Betbeder-Matibet
+- Jeffrey G Masek
+
+
+summary: Floods, defined as water that temporarily submerges land for over 72 hours or longer, are the largest natural hazard in terms of life loss and economic damage. Effective and immediate disaster response management can reduce the impact of floods but it requires near real-time information on flood occurrence, typically derived based on Earth Observation data.
+
 tags:
 - HLS Flood Detection
 date: "2021-03-03T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: http://example.org
+external_link: ""
 
 image:
   caption: Photo by Toa Heftiba on Unsplash
