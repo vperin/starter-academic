@@ -47,7 +47,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-# url_pdf: ''
+url_pdf: 'https://www.sciencedirect.com/science/article/abs/pii/S0378377420322381'
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''
