@@ -10,8 +10,8 @@ role: PhD student in Geospatial Analytics
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: North Carolina State University
-  url: https://www.ncsu.edu/
+- name: Center for Geospatial Analytics
+  url: https://cnr.ncsu.edu/geospatial/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include surface water, agriculture, irrigation, remote sensing and hydrological modeling.
