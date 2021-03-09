@@ -1,5 +1,5 @@
 ---
-title: Example Talk
+title: Work and Life Balance
 
 event: Wowchemy Conference
 event_url: https://example.org
