@@ -6,7 +6,7 @@ authors:
 - Mark Broich
 - Junchang Ju
 - admin
-- Mollie Gaines
+- Mollie D. Gaines
 - Simon Yin
 - Stephen V Stehman
 - Tamlin Pavelsky

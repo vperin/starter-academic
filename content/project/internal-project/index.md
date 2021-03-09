@@ -4,7 +4,7 @@ title: Quantifying on-farm reservoirs’ impacts on surface hydrology using a mu
 authors:
 - admin
 - Mirela G. Tulbure
-- Mollie Gaines
+- Mollie D. Gaines
 
 summary: Fresh water stored by on-farm reservoirs (OFRs) is a fundamental component of surface hydrology and is critical for meeting global irrigation needs. Farmers use OFRs to store water during the wet season for crop irrigation during the dry season. There are more than 2.6 million OFRs in the US alone, and many of these OFRs were constructed during the last 40 years.
 
