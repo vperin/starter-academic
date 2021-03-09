@@ -1,13 +1,24 @@
 ---
-title: "An example conference paper"
+title: "A Review of Geospatial Content in IEEE Visualization Publications"
 authors:
+- Alexander Yoshizumi
+- Megan M. Coffer
+- Elyssa L. Collins
+- Mollie D. Gaines
+- Xiaojie Gao
+- Kate Jones
+- Ian R. McGregor
+- Katie A. McQuillan
 - admin
-- Robert Ford
+- Laura M. Tomkins
+- Thom Worm
+- Laura Tateosian
+
 date: "2013-07-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2020-09-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,29 +27,29 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Source Themes Conference*
-publication_short: In *STC*
+publication: In *IEEE VIS Short Paper Proceedings 2020*
+publication_short: In *IEEE VIS*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Geospatial analysis is crucial for addressing many of the world's most pressing challenges. Given this, there is immense value in improving and expanding the visualization techniques used to communicate geospatial data. In this work, we explore this important intersection -- between geospatial analytics and visualization -- by examining a set of recent IEEE VIS Conference papers (a selection from 2017-2019) to assess the inclusion of geospatial data and geospatial analyses within these papers. After removing the papers with no geospatial data, we organize the remaining literature into geospatial data domain categories and provide insight into how these categories relate to VIS Conference paper types. We also contextualize our results by investigating the use of geospatial terms in IEEE Visualization publications over the last 30 years. Our work provides an understanding of the quantity and role of geospatial subject matter in recent IEEE VIS publications and supplies a foundation for future meta-analytical work around geospatial analytics and geovisualization that may shed light on opportunities for innovation.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Geospatial analysis is crucial for addressing many of the world's most pressing challenges. Given this, there is immense value in improving and expanding the visualization techniques used to communicate geospatial data. In this work, we explore this important intersection -- between geospatial analytics and visualization -- by examining a set of recent IEEE VIS Conference papers (a selection from 2017-2019) to assess the inclusion of geospatial data and geospatial analyses within these papers.
 
 tags:
 - Source Themes
 featured: true
 
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
-url_code: '#'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+# - name: Custom Link
+#   url: http://example.org
+url_pdf: https://arxiv.org/abs/2009.03390
+# url_code: '#'
+# url_dataset: '#'
+# url_poster: '#'
+# url_project: ''
+# url_slides: ''
+# url_source: '#'
+# url_video: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
