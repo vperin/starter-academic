@@ -1,17 +1,17 @@
 ---
-title: Quantifying on-farm reservoirs’ impacts on surface hydrology using a multi-sensor approach
+title: The Effects of Climate and Human Drivers on Changes in Surface Water in the Southeastern United States
 
 authors:
-- admin
-- Mirela G. Tulbure
 - Mollie D. Gaines
+- Mirela G. Tulbure
+- admin
 
-summary: Fresh water stored by on-farm reservoirs (OFRs) is a fundamental component of surface hydrology and is critical for meeting global irrigation needs. Farmers use OFRs to store water during the wet season for crop irrigation during the dry season. There are more than 2.6 million OFRs in the US alone, and many of these OFRs were constructed during the last 40 years.
+summary: In this study, we assessed how different climate and anthropogenic drivers affect the variability of surface water in the Southeastern United States, an area that has experienced more land cover change than any other region in the country.
 
 tags:
-- On-farm reservoirs
+- Southeastern US
 
-date: "2021-03-09T00:00:00Z"
+date: "2021-01-09T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -21,12 +21,4 @@ image:
   focal_point: Smart
 ---
 
-Fresh water stored by on-farm reservoirs (OFRs) is a fundamental component of surface hydrology and is critical for meeting global irrigation needs. Farmers use OFRs to store water during the wet season for crop irrigation during the dry season. There are more than 2.6 million OFRs in the US alone, and many of these OFRs were constructed during the last 40 years. Despite their importance for irrigating crops, OFRs can contribute to downstream water stress by decreasing stream discharge and peak flow in the watersheds where they are built, thereby exacerbating water stress intensified by climate change and population growth. However, modeling the impact of OFRs on surface hydrology remains a challenge because they are so abundant and have frequent fluctuations in surface area and water volume. Prior to the recent availability of satellite data, widespread monitoring of OFRs’ surface area and water volume across space and time was impossible due to temporal latency of satellite observations. The goal of this project, therefore, is to harness a multi-sensor satellite imagery approach to reduce observation latency and improve surface hydrology modeling, with the aim of supporting more efficient management of OFRs and mitigation of their downstream impacts. Our objectives are:  
-
-• *Objective 1*: Develop a multi-sensor imagery approach to reduce latency and obtain sub-weekly OFRs surface area and volume change.
-  - A novel method based on the Kalman filter will be used to harmonize data from multiple optical sensors and to provide sub-weekly OFRs surface area change, which will be converted to volume change using area-elevation equations.
-  - The Kalman filter is a recursive inference algorithm that is not sensor-dependent and considers uncertainty in both the observations and resulting estimates, which are advantages over other algorithms.
-
-• *Objective 2*: Input sub-weekly OFRs volume change into the Soil Water and Assessment Tool (SWAT) model to estimate OFRs’ impact on surface hydrology.
-- Volume change is pivotal to estimating OFRs’ impact on surface hydrology; however, this information is rarely available for individual OFRs. The Kalman filter method will enable us to estimate volume change for individual OFRs.
-- Few, if any, studies have coupled a multi-sensor approach with hydrological modeling to assess the OFRs’ impacts.
+Water stress is a global concern as a changing climate leads to variations in weather patterns and agricultural and urban areas continue to use water-intensive practices. Understanding spatial and temporal factors of surface water dynamics is key to better managing our resources and limiting the effects of water stress. However, many of the models we currently have for estimating changes in surface water do not account for human drivers such as land cover change or land use intensity. In this study, we assessed how different climate and anthropogenic drivers affect the variability of surface water in the Southeastern United States, an area that has experienced more land cover change than any other region in the country. We used the newly developed Dynamic Surface Water Extent (DSWE) Landsat Science Product from the U.S. Geological Survey to quantify surface water in the region for a time period of over 30 years. We used three linear mixed effect models with climate and anthropogenic variables (precipitation and temperature standardized anomalies, and percent of land cover types and population density respectively) as the fixed effects and the 8-digit HydrologicUnit Code boundaries as the random effects. The first model used only climate variables to estimate surface water. The second used only anthropogenic variables to estimate surface water, and the third used both climate and anthropogenic variables. Our preliminary results show that the fixed effects in the second and third models described over 50% more of the variance in surface water than the fixed effects in the first model. These results indicate that human drivers such as land cover change and population density have more direct influence on estimating surface water than climate drivers alone. Because human drivers can be more easily managed by decision makers than climate drivers, we can infer from our results that water management practices and land use policies can be highly effective tools in adapting to and mitigating the effects of water stress.
