@@ -31,8 +31,8 @@ content:
     tag: HLS Flood Detection
   - name: On-farm reservoirs
     tag: On-farm reservoirs
-  - name: Surface Water in Southeastern US
-    tag: Surface Water in Southeastern US
+  - name: Southeastern US
+    tag: Southeastern US
 
 
 design:
