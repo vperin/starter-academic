@@ -72,4 +72,4 @@ highlight_name: false
 
 Hey all ! I am a PhD student at the Center for Geospatial Analytics at North Carolina State University. I am currently working with remote sensing imagery to assess surface water dynamics. 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "resume.pdf" "newtab" >}}CV{{< /staticref >}}
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "perin_cv.pdf" "newtab" >}}CV{{< /staticref >}}

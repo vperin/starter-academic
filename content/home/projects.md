@@ -27,10 +27,10 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: HLS Flood Detection
-    tag: HLS Flood Detection
   - name: On-farm reservoirs
     tag: On-farm reservoirs
+  - name: HLS Flood Detection
+    tag: HLS Flood Detection
   - name: Southeastern US
     tag: Southeastern US
 
