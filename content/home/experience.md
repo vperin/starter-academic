@@ -31,9 +31,9 @@ experience:
     description: |2-
         Activities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Analysing satellite data using open-source tools (e.g., rasterio, geopandas, gdal)
+        * Cloud-computing (Google Earth Engine) and Machine learning algorithms.
+        * Course work focused on Remote sensing, Data Mining, Spatial Modeling, Geo-visualization and Geo-database management.
         
   - title: MSc Student
     company: Kansas State University
@@ -44,7 +44,30 @@ experience:
     description: |2-
         Activities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Field experiments (planting to harvest)
+        * Modelling (Denitrification-Decomposition model)
+        * Thesis focused on Agricultural Meteorology
+  
+  - title: BSc Student - Study Abroad Program
+    company: Wageningen University & Research
+    company_url: ''
+    location: Wageningen, The Netherlands
+    date_start: '2015-07-01'
+    date_end: '2016-07-31'
+    description: |2-
+        Activities include:
+        
+        * Course work focused in Global Food Security, GIS and Remote Sensing
+  
+  - title: BSc Student
+    company: University of Sao Paulo
+    company_url: ''
+    location: Piracicaba, SP, Brazil
+    date_start: '2012-02-01'
+    date_end: '2016-12-31'
+    description: |2-
+        Activities include:
+        
+        * Surface water and crop modeling
+        * Thesis focused on Sugarcane irrigation
 ---
