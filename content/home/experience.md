@@ -32,8 +32,8 @@ experience:
         Activities include:
         
         * Analysing satellite data using open-source tools (e.g., rasterio, geopandas, gdal)
-        * Cloud-computing (Google Earth Engine) and Machine learning algorithms.
-        * Course work focused on Remote sensing, Data Mining, Spatial Modeling, Geo-visualization and Geo-database management.
+        * Cloud-computing (Google Earth Engine) and Machine learning algorithms
+        * Course work focused on Remote sensing, Data Mining, Spatial Modeling, Geo-visualization and Geo-database management
         
   - title: MSc Student
     company: Kansas State University

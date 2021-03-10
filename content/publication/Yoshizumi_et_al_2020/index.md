@@ -36,7 +36,7 @@ abstract: Geospatial analysis is crucial for addressing many of the world's most
 summary: Geospatial analysis is crucial for addressing many of the world's most pressing challenges. Given this, there is immense value in improving and expanding the visualization techniques used to communicate geospatial data. In this work, we explore this important intersection -- between geospatial analytics and visualization -- by examining a set of recent IEEE VIS Conference papers (a selection from 2017-2019) to assess the inclusion of geospatial data and geospatial analyses within these papers.
 
 tags:
-- Source Themes
+
 featured: true
 
 links:
