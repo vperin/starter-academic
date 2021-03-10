@@ -5,7 +5,7 @@
 
 title: ' ' # Website name
 baseurl: '' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+copyright: 'Vinicius Perin' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
