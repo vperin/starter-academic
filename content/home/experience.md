@@ -45,7 +45,7 @@ experience:
         Activities include:
         
         * Field experiments (planting to harvest)
-        * Modelling (Denitrification-Decomposition model)
+        * Modeling (Denitrification-Decomposition model)
         * Thesis focused on Agricultural Meteorology
   
   - title: BSc Student - Study Abroad Program
