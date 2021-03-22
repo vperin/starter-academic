@@ -20,7 +20,9 @@ bio: My research interests include surface water, agriculture, irrigation, remot
 interests:
 - Remote sensing
 - Geospatial modeling
+- Python programming
 - Irrigated agriculture
+  
 
 # Education to show in About widget
 education:
@@ -31,7 +33,7 @@ education:
   - course: MSc in Agronomy
     institution: Kansas State University
     year: 2019
-  - course: BSc in in Agronomy
+  - course: BSc in Agronomy
     institution: University of Sao Paulo
     year: 2017
 
