@@ -37,7 +37,7 @@ abstract: Fresh water stored by on-farm reservoirs (OFRs) is an important compon
 # Summary. An optional shortened abstract.
 summary: We propose a novel multi-sensor approach to monitor OFRs surface areas, developed based on 736 OFRs in eastern Arkansas, USA, which leverages the use of PlanetScope (PS), RapidEye (RE), Sentinel 2 (S2), and Sentinel 1 (S1). First, we estimate the uncertainties in surface area for each sensor by comparing the surface area estimates to a validation dataset, and by comparing RE, S2 and S1 to PS—the sensor with the highest spatial resolution (i.e. 3.125 m). Second, we use the uncertainties of each sensor with a data assimilation algorithm based on the Kalman filter to obtain sub-weekly surface area time series for all OFRs.
 
-tags: []
+tags: [On-farm reservoirs]
 
 # Display this page in the Featured widget?
 featured: true
@@ -59,7 +59,7 @@ url_pdf: 'https://www.sciencedirect.com/science/article/abs/pii/S003442572100516
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Vini Perin**]()'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -70,6 +70,7 @@ image:
 #   Otherwise, set `projects: []`.
 projects:
 - internal-project
+- On-farm reservoirs
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
