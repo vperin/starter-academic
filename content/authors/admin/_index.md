@@ -18,9 +18,10 @@ bio: My research interests include surface water, agriculture, irrigation, remot
 
 # Interests to show in About widget
 interests:
-- Remote sensing
-- Geospatial modeling
-- Python programming
+- Satellite Imagery
+- Geospatial Analytics
+- Cloud Computing
+- Python Programming
 - Irrigated agriculture
   
 

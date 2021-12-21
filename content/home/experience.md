@@ -29,12 +29,24 @@ experience:
     date_start: '2019-08-01'
     date_end: ''
     description: |2-
-        Activities include:
+        Assessing on-farm reservoirs surface water dynamics using satellite imagery. Activities include:
         
-        * Analysing satellite data using open-source tools (e.g., rasterio, geopandas, gdal)
-        * Cloud-computing (Google Earth Engine) and Machine learning algorithms
-        * Course work focused on Remote sensing, Data Mining, Spatial Modeling, Geo-visualization and Geo-database management
+        * Employing a multi-sensor approach (i.e., Landsat, Sentinel 1, Sentinel 2, PlanetScope, and RapidEye) to monitor the reservoirs' surface water area and water storage variation.
+        * Using open-source geospatial softwares packages (e.g., gdal, rasterio, geopandas) for data mining and analysis.
+        * Course work focused on Remote sensing, Data Mining, Spatial Modeling, Geo-visualization and Geo-database management.
+
+  - title: Professional Services Intern
+    company: Planet Labs
+    company_url: ''
+    location: Remote
+    date_start: '2021-06-21'
+    date_end: '2021-09-12'
+    description: |2-
+        Developing a novel application for Planet Fusion and Planet Basemaps, the next generation of high spatial and temporal resolution analysis ready datasets. Activities included:
         
+        * Processing and analyzing daily satellite imagery using open-source geospatial softwares.
+        * Developing a pipeline to ingest, process, and analyze the datasets in the cloud environment with Google Earth Engine and Google Cloud Platform.
+     
   - title: MSc Student
     company: Kansas State University
     company_url: ''
